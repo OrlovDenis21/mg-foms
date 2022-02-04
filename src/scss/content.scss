@@ -1,6 +1,6 @@
 .content{
-    // display: flex;
-    // justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
     width: 100%;
 }
 .content__item{
@@ -9,88 +9,47 @@
 }
 
 .message{
-
-display: flex;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
 }
-
-.message__gear{
+.message__item{
     width: 36px;
     height: 36px;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    //background: rgba(0, 0, 0, 0.1);
+    //border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+//.message:hover {
+//    text-decoration: underline;
+//    background: blue;
+//}
+.message:hover{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
 .message__gearitem{
-    
+    //margim-left: 17px;
 }
-.message__letter{
-    width: 36px;
-    height: 36px;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.message__letteritem{
 
-}
-.message__question{
-    width: 20px;
-    height: 20px;
-}
-.message__time{
-    width: 20px;
-    height: 20px;
-}
-.message__check{
-    width: 20px;
-    height: 20px;
-}
-.message__phone{
-    width: 20px;
-    height: 20px;
-}
-.message__point{
-    width: 20px;
-    height: 20px;
-}
-.message__board{
-    width: 36px;
-    height: 36px;
-    background: #149AE2;
-    opacity: 0.3;
-    border-radius: 5px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-}
-.message__boarditem{
-    width: 28px;
-    height: 28px;
-    background: #149AE2;
-    opacity: 0.5;
-    border-radius: 5px;
-}
-.message__wet{
-    width: 20px;
-    height: 20px;
-}
 .page__content{
     display: flex;
-    padding-right: 59px;
+    //padding-right: 37px;
     padding-top: 11px;
-    
+
 }
 .page__content-text{
-    font-family: "GothamProRegular";
+    font-family: "GothamPro";
     font-weight: 700;
     font-size: 12px;
     color: #000;
-    padding-right: 33px;
+    padding-right: 13px;
     padding-top: 17px;
 }
 .page__content-text-ikon{
@@ -108,12 +67,22 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 16px;
 }
-.page__content-item-text {
+.page__content-item-text1 {
+    font-family: "GothamPro";
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
 
 }
-.page__content-title-text{
-
+.page__content-title-text2{
+    font-family: "GothamPro";
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 24px;
+    margin-top: 12px;
 }
 .info {
     display: flex;
@@ -122,21 +91,48 @@ display: flex;
 
 }
 .main__text{
-    font-family: "GothamProRegular";
+    font-family: "GothamPro";
     font-weight: 700;
     color:  #35AD97 ;
     font-size: 18px;
     padding-top: 26px;
     padding-left: 25px;
 }
+
+
 .main__title{
-    font-family: "GothamProRegular";
+    font-family: "GothamPro";
     font-weight: 700;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
     padding-top: 38px;
     padding-left: 19px;
 }
+
+//скролл
+.element__main{
+    overflow-y: scroll;
+    background-color: #ffffff;
+    width: 748px;
+    height: 419px;
+}
+.element__main::-webkit-scrollbar {
+    width: 4px;
+    height: 238px;
+
+    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    border-radius: 2px;
+}
+//::-webkit-scrollbar {
+//    width: 0;
+//}
+
+.overflow__main{
+    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    border-radius: 2px;
+}
+// скролл
+
 .information{
     width: 309px;
     height: 60px;
@@ -151,13 +147,13 @@ display: flex;
     height: 40px;
     background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
     border-radius: 6px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .information__text {
-    font-family: "GothamProRegular";
+    font-family: "GothamPro";
     font-weight: 700;
     font-size: 14;
     color: #000000;
@@ -169,91 +165,102 @@ display: flex;
 
 .main__fullname{
 
-} 
+}
 .main__name-title {
-    font-family: Gotham Pro;
-    font-weight: 400;
+    font-family: "GothamPro400";
+    font-weight: 700;
     font-size: 12px;
     color: #000000;
 }
 .main__name-subtitle {
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
     font-size: 12px;
     color: #000000;
+    margin-top: 13px;
 }
 .main__date{
-    padding-top: 45px;
+    padding-top: 31px;
 }
 .main__date-title{
-    font-family: Gotham Pro;
-    font-weight: 400;
-    font-size: 12px;
+    font-family: "GothamPro400";
+    font-weight: 700;
+    font-size: 14px;
     color: #000000;
-} 
+}
 .main__date-subtitle{
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
+    margin-top: 12px;
     color: #000000;
-} 
+}
 .main__floor{
-    padding-top: 37px;
+    padding-top: 30px;
 }
 .main__floor-title{
-    font-family: Gotham Pro;
-    font-weight: 400;
+    font-family: "GothamPro400";
+    font-weight: 700;
     font-size: 12px;
     color: #000000;
-} 
+}
 .main__floor-subtitle{
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
     font-size: 12px;
     color: #000000;
-} 
+    margin-top: 12px;
+}
 .main__documents{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .main__documents-title{
-    font-family: Gotham Pro;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000000;
-} 
-.main__documents-subtitle {
-    font-family: Gotham Pro;
-    font-weight: 400;
+    font-family: "GothamPro400";
+    font-weight: 700;
     font-size: 12px;
     color: #000000;
 }
-.main__servicese{
+.main__documents-subtitle {
+    font-family: "GothamPro400";
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 13px;
+}
+.main__servicese1{
+    margin-top: 4px;
+}
+.main__servicese2{
 
 }
+.main__servicese3{
+    margin-top: 29px;
+}
 .main__servise-title{
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
-    padding-top: 38px;
+    padding-top: 30px;
     padding-left: 23px;
 }
 // .main__servise-subtitle{
-    // padding-top: 37px;
-    // padding-left: 31px;
-    // display: flex;
+// padding-top: 37px;
+// padding-left: 31px;
+// display: flex;
 // }
 .main__servise-subtitle {
-    padding-top: 38px;
-    padding-left: 31px;
+    padding-top: 35px;
+    padding-left: 12px;
     display: flex;
-    width: 747px;
-    height: 100px;
+    width: 730px;
+    //height: 100px;
     background: #fff;
-    opacity: 1.05;
+    //opacity: 0.05;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-left: 20px;
 }
 .main__servise-subtitle-img{
     width: 40px;
@@ -265,13 +272,7 @@ display: flex;
     justify-content: center;
 }
 .main__servise-subtitle-img2 {
-    width: 40px;
-    height: 40px;
-    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .main__servise-subtitle-img3{
     background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
@@ -284,7 +285,7 @@ display: flex;
     justify-content: center;
 }
 .main__servise-subtitle-data{
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
@@ -295,7 +296,7 @@ display: flex;
     // display: flex;
 }
 .main__servise-subtitle-text1{
-    font-family: Gotham Pro;
+    font-family: "GothamPro";
     font-weight: 700;
     font-size: 14px;
     color: #000000;
@@ -303,17 +304,17 @@ display: flex;
     margin-right: -7px;
 }
 .main__servise-subtitle-text2 {
-    font-family: Gotham Pro;
+    font-family: "GothamPro";
     font-weight: 700;
     // color: rgb(45, 122, 103)
     color: green;
     font-size: 12px;
-    padding-left: 486px;
+    padding-left: 514px;
     margin-top: -19px;
 }
 .main__servise-subtitle-text2item{
-    
-    font-family: Gotham Pro;
+
+    font-family: "GothamPro";
     font-weight: 700;
     // color: rgb(45, 122, 103)
     color: red;
@@ -325,30 +326,102 @@ display: flex;
 
 }
 .main__servicese-line-img {
-    margin-left: 592px;
-} 
+    margin-left: 652px;
+}
 
 
 .main__servise-subtitle-common{
     display: flex;
-    margin-left: -638px;
-    margin-top: 35px;
-}
-.main__servise-subtitle-cost{
 
 }
+.main__servise-subtitle-cost{
+    font-family: "GothamPro400";
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.5;
+    font-size: 12px;
+}
 .main__servise-subtitle-price{
+    font-family: "GothamPro400";
+    font-weight: 400;
+    color: #000000;
+
+    font-size: 12px;
     padding-left: 14px;
 }
 .main__servise-subtitle-medical{
+    font-family: "GothamPro400";
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.5;
+    font-size: 12px;
     padding-left: 67px;
 }
 .main__servise-subtitle-city {
+    font-family: "GothamPro400";
+    font-weight: 400;
+    color: #000000;
+
+    font-size: 12px;
     padding-left: 4px;
 }
+.main__servise-subtitle2 {
+    padding-top: 17px;
+    padding-left: 14px;
+    display: flex;
+    width: 730px;
+    background: #fff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.main__servicese2{
+    padding-left: 19px;
+    padding-top: 24px;
+}
+.main__servise-subtitle3 {
+    padding-top: 10px;
+    padding-left: 14px;
+    display: flex;
+    width: 730px;
+    background: #fff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.main__servicese3{
+    margin-top: 9px;
+    margin-left: 19px;
+}
+
+
 .medical{
 
 }
+//скролл
+.element__medical{
+    overflow-y: scroll;
+    background-color: #ffffff;
+    width: 388px;
+    height: 871px;
+}
+.element__medical::-webkit-scrollbar {
+    width: 4px;
+    height: 238px;
+
+    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    border-radius: 2px;
+}
+//::-webkit-scrollbar {
+//    width: 0;
+//}
+
+.overflow__medical {
+    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    border-radius: 2px;
+}
+    //скролл
 .medical__info{
     width: 379px;
     height: 384px;
@@ -366,7 +439,7 @@ display: flex;
 } 
 .medical__subtitle{
     padding-left: 58px;
-    font-family: "GothamProRegular";
+    font-family: 'NewsCondensed';
     font-weight: 400;
     color: blue;
     font-size: 24px;
@@ -376,11 +449,11 @@ display: flex;
     margin-top: -6px;
 } 
 .medical__subtitle-text{
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: #000000;
-    padding-top: 19px;
+    padding-top: 13px;
     padding-left: 37px;
     width: 318px;
     height: 147px;
@@ -402,7 +475,12 @@ display: flex;
     background: #669aff;
 } 
 .biometeorological__info {
-
+    width: 378px;
+    height: 300px;
+    opacity: 0.05;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 .biometeorologica__title {
     display: flex;
@@ -415,7 +493,7 @@ display: flex;
 .biometeorologica__subtitle {
     width: 231px;
     height: 60px;
-    font-family: "GothamProRegular";
+    font-family: 'NewsCondensed';
     font-weight: 400;
     color: blue;
     font-size: 24px;
@@ -428,7 +506,7 @@ display: flex;
     margin-top: -4px;
 }
 .biometeorological__subtitle-text {
-    font-family: Gotham Pro;
+    font-family: "GothamPro400";
     font-weight: 400;
     font-size: 12px;
     width: 315px;
@@ -440,3 +518,113 @@ display: flex;
     padding-top: 15px;
     padding-left: 44px;
 }
+.figure{
+    display: flex;
+}
+.figure__item{
+    margin-top: 31px;
+    margin-left: 35px;
+
+}
+.figure__title{
+    font-family: "GothamPro";
+    font-weight: 700;
+    position: absolute;
+    margin-left: 58px;
+    font-size: 48px;
+    background: rgba(255, 255, 255, 1);
+    border: 6px solid #FFFFFF;
+    margin-top: -20px;
+    color: linear-gradient(205.53deg, #FCAA1E -12.39%, #F7D908 108.42%);
+
+color: Linear-Gradient(252, 170, 30, 1);
+
+
+
+}
+.figure__subtitle{
+
+}
+.figure__text{
+
+}
+.points{
+    font-family: "GothamPro";
+    font-weight: 700;
+    font-size: 12px;
+    color: #383838;
+    margin-top: 29px;
+}
+.points__title{
+    font-family: "GothamPro400";
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+.figure__dws{
+    margin-top: 32px;
+    margin-left: 135px;
+}
+.butt{
+    font-family: "GothamPro";
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    border: 5px solid #00CED1;
+    width: 93px;
+    height: 38px;
+}
+
+.widget{
+    width: 379px;
+    height: 215px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.widget__title{
+    display: flex;
+    align-items: center;
+}
+.widget__dash{
+    width: 42px;
+    height: 5px;
+    background: #FFD336;
+    border-radius: 5px;
+    margin-top: 52px;
+    margin-left: 57px;
+}
+p.widget__text{
+    font-family: 'NewsCondensed';
+    font-weight: 400;
+    margin-left: 68px;
+    margin-top: 38px;
+    font-size: 24px;
+}
+.widget__plus{
+    margin-top: 93px;
+    margin-left: 177px;
+}
+
+.widget__plus-title{
+    width: 33px;
+    height: 3px;
+    background: #DDDDDD;
+    border-radius: 5px;
+    transform: rotate(-90deg)
+}
+.widget__plus-subtitle{
+    width: 33px;
+    height: 3px;
+    background: #DDDDDD;
+    border-radius: 5px;
+}
+
+
+
+
