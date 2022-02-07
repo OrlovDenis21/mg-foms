@@ -23,9 +23,9 @@
 }
 .wrapper {
   width: 100%;
-  height: 100%;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .logo__wrapper {
@@ -256,9 +256,7 @@
 
 .element {
   overflow-y: scroll;
-  background-color: #ffffff;
   width: 300px;
-  height: 1024px;
 }
 
 .element::-webkit-scrollbar {
@@ -269,7 +267,9 @@
 }
 
 .content {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
 }
 
 .content__item {
@@ -291,18 +291,15 @@
   align-items: center;
   justify-content: center;
 }
-
-.message:hover {
+.message__item .message:hover {
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
-
 .page__content {
   display: flex;
   padding-top: 11px;
 }
-
-.page__content-text {
+.page__content .page__content-text {
   font-family: "GothamPro";
   font-weight: 700;
   font-size: 12px;
@@ -310,8 +307,7 @@
   padding-right: 13px;
   padding-top: 17px;
 }
-
-.page__content-text-ikon {
+.page__content .page__content-text-ikon {
   padding-right: 17px;
   padding-top: 22px;
 }
@@ -319,8 +315,7 @@
 .page__content-item {
   display: flex;
 }
-
-.page__content-item-ikon {
+.page__content-item .page__content-item-ikon {
   width: 50px;
   height: 50px;
   background: linear-gradient(212.94deg, #880C74 0%, #FFE766 100%);
@@ -349,6 +344,8 @@
 
 .info {
   display: flex;
+  justify-content: space-between;
+  flex: 1 1;
 }
 
 .main__text {
@@ -372,7 +369,6 @@
 .element__main {
   overflow-y: scroll;
   background-color: #ffffff;
-  width: 748px;
   height: 419px;
 }
 
@@ -397,8 +393,7 @@
   margin-top: 28px;
   margin-left: 24px;
 }
-
-.information__img {
+.information .information__img {
   width: 40px;
   height: 40px;
   background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
@@ -407,8 +402,7 @@
   align-items: center;
   justify-content: center;
 }
-
-.information__text {
+.information .information__text {
   font-family: "GothamPro";
   font-weight: 700;
   font-size: 14;
@@ -419,72 +413,61 @@
   padding-top: 19px;
   padding-left: 71px;
 }
-
-.main__name-title {
+.main__name .main__name-title {
   font-family: "GothamPro400";
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
-
-.main__name-subtitle {
+.main__name .main__name-subtitle {
   font-family: "GothamPro400";
   font-weight: 400;
   font-size: 12px;
   color: #000000;
   margin-top: 13px;
 }
-
-.main__date {
+.main__name .main__date {
   padding-top: 31px;
 }
-
-.main__date-title {
+.main__name .main__date-title {
   font-family: "GothamPro400";
   font-weight: 700;
   font-size: 14px;
   color: #000000;
 }
-
-.main__date-subtitle {
+.main__name .main__date-subtitle {
   font-family: "GothamPro400";
   font-weight: 400;
   font-size: 14px;
   margin-top: 12px;
   color: #000000;
 }
-
-.main__floor {
+.main__name .main__floor {
   padding-top: 30px;
 }
-
-.main__floor-title {
+.main__name .main__floor-title {
   font-family: "GothamPro400";
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
-
-.main__floor-subtitle {
+.main__name .main__floor-subtitle {
   font-family: "GothamPro400";
   font-weight: 400;
   font-size: 12px;
   color: #000000;
   margin-top: 12px;
 }
-
-.main__documents {
+.main__name .main__documents {
   padding-top: 30px;
 }
-
-.main__documents-title {
+.main__name .main__documents-title {
   font-family: "GothamPro400";
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
-
-.main__documents-subtitle {
+.main__name .main__documents-subtitle {
   font-family: "GothamPro400";
   font-weight: 400;
   font-size: 12px;
@@ -513,7 +496,6 @@
   padding-top: 35px;
   padding-left: 12px;
   display: flex;
-  width: 730px;
   background: #fff;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -623,7 +605,7 @@
   padding-top: 17px;
   padding-left: 14px;
   display: flex;
-  width: 730px;
+  width: 100%;
   background: #fff;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -639,7 +621,7 @@
   padding-top: 10px;
   padding-left: 14px;
   display: flex;
-  width: 730px;
+  width: 100%;
   background: #fff;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -654,7 +636,6 @@
 .element__medical {
   overflow-y: scroll;
   background-color: #ffffff;
-  width: 388px;
   height: 871px;
 }
 
@@ -722,10 +703,16 @@
 }
 
 .fill {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border: 5px solid #00CED1;
   width: 100px;
   height: 40px;
-  border-radius: 5px;
-  background: #669aff;
 }
 
 .biometeorological__info {
@@ -890,12 +877,10 @@ p.widget__text {
   align-items: center;
   justify-content: space-between;
 }
-
-.footer__text {
+.footer .footer__text {
   margin-left: 324px;
 }
-
-.footer__text-title {
+.footer .footer__text-title {
   font-family: "GothamPro400";
   font-weight: 400;
   font-size: 12px;
@@ -917,4 +902,10 @@ p.widget__text {
 
 .img__google {
   margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .info {
+    flex-direction: column;
+  }
 }

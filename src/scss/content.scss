@@ -1,7 +1,9 @@
 .content{
     //display: flex;
     //justify-content: space-between;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
 }
 .content__item{
     display: flex;
@@ -22,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+
 
 //.message:hover {
 //    text-decoration: underline;
@@ -37,13 +39,13 @@
 .message__gearitem{
     //margim-left: 17px;
 }
-
+}
 .page__content{
     display: flex;
     //padding-right: 37px;
     padding-top: 11px;
 
-}
+
 .page__content-text{
     font-family: "GothamPro";
     font-weight: 700;
@@ -56,9 +58,10 @@
     padding-right: 17px;
     padding-top: 22px;
 }
+}
 .page__content-item{
     display: flex;
-}
+
 .page__content-item-ikon{
     width: 50px;
     height: 50px;
@@ -68,6 +71,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 16px;
+}
 }
 .page__content-item-text1 {
     font-family: "GothamPro";
@@ -86,6 +90,8 @@
 }
 .info {
     display: flex;
+    justify-content: space-between;
+    flex: 1 1;
 }
 .main{
 
@@ -113,7 +119,7 @@
 .element__main{
     overflow-y: scroll;
     background-color: #ffffff;
-    width: 748px;
+    //width: 748px;
     height: 419px;
 }
 .element__main::-webkit-scrollbar {
@@ -141,7 +147,7 @@
     border-radius: 10px;
     margin-top: 28px;
     margin-left: 24px;
-}
+
 .information__img{
     width: 40px;
     height: 40px;
@@ -158,10 +164,11 @@
     font-size: 14;
     color: #000000;
 }
+}
 .main__name{
     padding-top: 19px;
     padding-left: 71px;
-}
+
 
 .main__fullname{
 
@@ -195,6 +202,7 @@
     margin-top: 12px;
     color: #000000;
 }
+
 .main__floor{
     padding-top: 30px;
 }
@@ -227,6 +235,7 @@
     color: #000000;
     margin-top: 13px;
 }
+}
 .main__servicese1{
     margin-top: 4px;
 }
@@ -253,7 +262,7 @@
     padding-top: 35px;
     padding-left: 12px;
     display: flex;
-    width: 730px;
+    //width: 100%;
     //height: 100px;
     background: #fff;
     //opacity: 0.05;
@@ -369,7 +378,7 @@
     padding-top: 17px;
     padding-left: 14px;
     display: flex;
-    width: 730px;
+    width: 100%;
     background: #fff;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -383,7 +392,7 @@
     padding-top: 10px;
     padding-left: 14px;
     display: flex;
-    width: 730px;
+    width: 100%;
     background: #fff;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -403,7 +412,7 @@
 .element__medical{
     overflow-y: scroll;
     background-color: #ffffff;
-    width: 388px;
+    //width: 388px;
     height: 871px;
 }
 .element__medical::-webkit-scrollbar {
@@ -469,11 +478,18 @@
     padding-top: 12px;
 }
 .fill{
+    font-family: "GothamPro";
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    border: 5px solid #00CED1;
     width: 100px;
     height: 40px;
-    border-radius: 5px;
-    background: #669aff;
-} 
+}
+
 .biometeorological__info {
     width: 378px;
     height: 300px;
