@@ -1,3 +1,6 @@
+
+
+
 .content{
     //display: flex;
     //justify-content: space-between;
@@ -47,7 +50,7 @@
 
 
 .page__content-text{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #000;
@@ -74,14 +77,14 @@
 }
 }
 .page__content-item-text1 {
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
 
 }
 .page__content-title-text2{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #000000;
@@ -97,7 +100,7 @@
 
 }
 .main__text{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     color:  #35AD97 ;
     font-size: 18px;
@@ -107,7 +110,7 @@
 
 
 .main__title{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.5);
@@ -126,7 +129,7 @@
     width: 4px;
     height: 238px;
 
-    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     border-radius: 2px;
 }
 //::-webkit-scrollbar {
@@ -134,7 +137,7 @@
 //}
 
 .overflow__main{
-    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     border-radius: 2px;
 }
 // скролл
@@ -159,28 +162,99 @@
     justify-content: center;
 }
 .information__text {
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
-    font-size: 14;
+    font-size: 14px;
     color: #000000;
 }
+}
+.information__mobile{
+    margin-top: 28px;
+    margin-left: 24px;
+    display: none;
+}
+.information__mobile-data{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.data__img{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    border-radius: 10px;
+}
+.data__text{
+    font-family: "GothamPro",  sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+.information__mobile-common{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.common-img{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(212.94deg, #880C74 0%, #FFE766 100%);
+    border-radius: 10px;
+}
+
+.common-text{
+    font-family: "GothamPro",  sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+.information__mobile-dentistry{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.dentistry-img{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(212.94deg, #F2F53D 0%, #2E5C00 100%);
+    border-radius: 10px;
+}
+.dentistry-text{
+    font-family: "GothamPro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
 }
 .main__name{
     padding-top: 19px;
     padding-left: 71px;
 
 
+
 .main__fullname{
 
 }
 .main__name-title {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #000000;
 }
 .main__name-subtitle {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -190,13 +264,13 @@
     padding-top: 31px;
 }
 .main__date-title{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #000000;
 }
 .main__date-subtitle{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 14px;
     margin-top: 12px;
@@ -207,13 +281,13 @@
     padding-top: 30px;
 }
 .main__floor-title{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #000000;
 }
 .main__floor-subtitle{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -223,13 +297,13 @@
     padding-top: 30px;
 }
 .main__documents-title{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #000000;
 }
 .main__documents-subtitle {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -246,7 +320,7 @@
     margin-top: 29px;
 }
 .main__servise-title{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
@@ -287,14 +361,14 @@
     background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
     width: 40px;
     height: 40px;
-    background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
+
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .main__servise-subtitle-data{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
@@ -305,7 +379,7 @@
     // display: flex;
 }
 .main__servise-subtitle-text1{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #000000;
@@ -313,7 +387,7 @@
     margin-right: -7px;
 }
 .main__servise-subtitle-text2 {
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     // color: rgb(45, 122, 103)
     color: green;
@@ -323,7 +397,7 @@
 }
 .main__servise-subtitle-text2item{
 
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     // color: rgb(45, 122, 103)
     color: red;
@@ -344,14 +418,14 @@
 
 }
 .main__servise-subtitle-cost{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     color: #000000;
     opacity: 0.5;
     font-size: 12px;
 }
 .main__servise-subtitle-price{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     color: #000000;
 
@@ -359,7 +433,7 @@
     padding-left: 14px;
 }
 .main__servise-subtitle-medical{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     color: #000000;
     opacity: 0.5;
@@ -367,7 +441,7 @@
     padding-left: 67px;
 }
 .main__servise-subtitle-city {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     color: #000000;
 
@@ -419,7 +493,7 @@
     width: 4px;
     height: 238px;
 
-    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     border-radius: 2px;
 }
 //::-webkit-scrollbar {
@@ -427,7 +501,7 @@
 //}
 
 .overflow__medical {
-    background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     border-radius: 2px;
 }
     //скролл
@@ -448,7 +522,7 @@
 } 
 .medical__subtitle{
     padding-left: 58px;
-    font-family: 'NewsCondensed';
+    font-family: 'NewsCondensed', sans-serif;
     font-weight: 400;
     color: blue;
     font-size: 24px;
@@ -458,7 +532,7 @@
     margin-top: -6px;
 } 
 .medical__subtitle-text{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -478,7 +552,7 @@
     padding-top: 12px;
 }
 .fill{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 12px;
     display: flex;
@@ -509,7 +583,7 @@
 .biometeorologica__subtitle {
     width: 231px;
     height: 60px;
-    font-family: 'NewsCondensed';
+    font-family: 'NewsCondensed', sans-serif;
     font-weight: 400;
     color: blue;
     font-size: 24px;
@@ -522,7 +596,7 @@
     margin-top: -4px;
 }
 .biometeorological__subtitle-text {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     width: 315px;
@@ -543,7 +617,7 @@
 
 }
 .figure__title{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     position: absolute;
     margin-left: 58px;
@@ -552,8 +626,7 @@
     border: 6px solid #FFFFFF;
     margin-top: -20px;
     color: linear-gradient(205.53deg, #FCAA1E -12.39%, #F7D908 108.42%);
-
-color: Linear-Gradient(252, 170, 30, 1);
+    //color: Linear-Gradient(252, 170, 30, 1);
 
 
 
@@ -565,14 +638,14 @@ color: Linear-Gradient(252, 170, 30, 1);
 
 }
 .points{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 12px;
     color: #383838;
     margin-top: 29px;
 }
 .points__title{
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -584,7 +657,7 @@ color: Linear-Gradient(252, 170, 30, 1);
     margin-left: 135px;
 }
 .butt{
-    font-family: "GothamPro";
+    font-family: "GothamPro", sans-serif;
     font-weight: 700;
     font-size: 12px;
     display: flex;
@@ -616,7 +689,7 @@ color: Linear-Gradient(252, 170, 30, 1);
     margin-left: 57px;
 }
 p.widget__text{
-    font-family: 'NewsCondensed';
+    font-family: 'NewsCondensed', sans-serif;
     font-weight: 400;
     margin-left: 68px;
     margin-top: 38px;

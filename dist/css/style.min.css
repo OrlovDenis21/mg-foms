@@ -301,7 +301,7 @@
   padding-top: 11px;
 }
 .page__content .page__content-text {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 12px;
   color: #000;
@@ -328,14 +328,14 @@
 }
 
 .page__content-item-text1 {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .page__content-title-text2 {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #000000;
@@ -350,7 +350,7 @@
 }
 
 .main__text {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   color: #35AD97;
   font-size: 18px;
@@ -359,7 +359,7 @@
 }
 
 .main__title {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
@@ -376,12 +376,12 @@
 .element__main::-webkit-scrollbar {
   width: 4px;
   height: 238px;
-  background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+  background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
   border-radius: 2px;
 }
 
 .overflow__main {
-  background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+  background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
   border-radius: 2px;
 }
 
@@ -404,9 +404,84 @@
   justify-content: center;
 }
 .information .information__text {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
-  font-size: 14;
+  font-size: 14px;
+  color: #000000;
+}
+
+.information__mobile {
+  margin-top: 28px;
+  margin-left: 24px;
+  display: none;
+}
+
+.information__mobile-data {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.data__img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+  border-radius: 10px;
+}
+
+.data__text {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.information__mobile-common {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.common-img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(212.94deg, #880C74 0%, #FFE766 100%);
+  border-radius: 10px;
+}
+
+.common-text {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.information__mobile-dentistry {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.dentistry-img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(212.94deg, #F2F53D 0%, #2E5C00 100%);
+  border-radius: 10px;
+}
+
+.dentistry-text {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
   color: #000000;
 }
 
@@ -415,13 +490,13 @@
   padding-left: 71px;
 }
 .main__name .main__name-title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
 .main__name .main__name-subtitle {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -431,13 +506,13 @@
   padding-top: 31px;
 }
 .main__name .main__date-title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #000000;
 }
 .main__name .main__date-subtitle {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 14px;
   margin-top: 12px;
@@ -447,13 +522,13 @@
   padding-top: 30px;
 }
 .main__name .main__floor-title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
 .main__name .main__floor-subtitle {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -463,13 +538,13 @@
   padding-top: 30px;
 }
 .main__name .main__documents-title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 700;
   font-size: 12px;
   color: #000000;
 }
 .main__name .main__documents-subtitle {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -485,7 +560,7 @@
 }
 
 .main__servise-title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
@@ -518,7 +593,6 @@
   background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
   width: 40px;
   height: 40px;
-  background: linear-gradient(212.94deg, #3556AD 0%, #761C6D 100%);
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -526,7 +600,7 @@
 }
 
 .main__servise-subtitle-data {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
@@ -535,7 +609,7 @@
 }
 
 .main__servise-subtitle-text1 {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #000000;
@@ -544,7 +618,7 @@
 }
 
 .main__servise-subtitle-text2 {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   color: green;
   font-size: 12px;
@@ -553,7 +627,7 @@
 }
 
 .main__servise-subtitle-text2item {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   color: red;
   font-size: 12px;
@@ -570,7 +644,7 @@
 }
 
 .main__servise-subtitle-cost {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   color: #000000;
   opacity: 0.5;
@@ -578,7 +652,7 @@
 }
 
 .main__servise-subtitle-price {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 12px;
@@ -586,7 +660,7 @@
 }
 
 .main__servise-subtitle-medical {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   color: #000000;
   opacity: 0.5;
@@ -595,7 +669,7 @@
 }
 
 .main__servise-subtitle-city {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 12px;
@@ -643,12 +717,12 @@
 .element__medical::-webkit-scrollbar {
   width: 4px;
   height: 238px;
-  background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+  background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
   border-radius: 2px;
 }
 
 .overflow__medical {
-  background-color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+  background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
   border-radius: 2px;
 }
 
@@ -672,7 +746,7 @@
 
 .medical__subtitle {
   padding-left: 58px;
-  font-family: "NewsCondensed";
+  font-family: "NewsCondensed", sans-serif;
   font-weight: 400;
   color: blue;
   font-size: 24px;
@@ -684,7 +758,7 @@
 }
 
 .medical__subtitle-text {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -704,7 +778,7 @@
 }
 
 .fill {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 12px;
   display: flex;
@@ -738,7 +812,7 @@
 .biometeorologica__subtitle {
   width: 231px;
   height: 60px;
-  font-family: "NewsCondensed";
+  font-family: "NewsCondensed", sans-serif;
   font-weight: 400;
   color: blue;
   font-size: 24px;
@@ -752,7 +826,7 @@
 }
 
 .biometeorological__subtitle-text {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   width: 315px;
@@ -776,7 +850,7 @@
 }
 
 .figure__title {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   position: absolute;
   margin-left: 58px;
@@ -785,11 +859,10 @@
   border: 6px solid #FFFFFF;
   margin-top: -20px;
   color: linear-gradient(205.53deg, #FCAA1E -12.39%, #F7D908 108.42%);
-  color: Linear-Gradient(252, 170, 30, 1);
 }
 
 .points {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 12px;
   color: #383838;
@@ -797,7 +870,7 @@
 }
 
 .points__title {
-  font-family: "GothamPro400";
+  font-family: "GothamPro400", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #000000;
@@ -811,7 +884,7 @@
 }
 
 .butt {
-  font-family: "GothamPro";
+  font-family: "GothamPro", sans-serif;
   font-weight: 700;
   font-size: 12px;
   display: flex;
@@ -846,7 +919,7 @@
 }
 
 p.widget__text {
-  font-family: "NewsCondensed";
+  font-family: "NewsCondensed", sans-serif;
   font-weight: 400;
   margin-left: 68px;
   margin-top: 38px;
@@ -915,15 +988,14 @@ p.widget__text {
   }
 
   .menu {
-    font-family: "GothamPro400";
+    font-family: "GothamPro400", sans-serif;
     font-weight: 400;
     display: flex;
     flex-direction: column;
     line-height: 67px;
     color: #FFF;
     font-size: 16px;
-    width: 295px;
-    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    width: 0;
   }
 
   .menu__list {
@@ -950,7 +1022,7 @@ p.widget__text {
     /* центрируем содержимое кнопки */
     position: fixed;
     top: 6px;
-    left: 906px;
+    right: 20px;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -965,7 +1037,7 @@ p.widget__text {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .menu__btn > span::before {
@@ -1080,5 +1152,19 @@ p.widget__text {
 
   .menu__list .menu__item:nth-child(7) {
     display: flex;
+  }
+}
+@media (max-width: 767px) {
+  .information__mobile {
+    display: block;
+  }
+
+  .main__name {
+    display: none;
+  }
+
+  .main__servise-subtitle {
+    width: 334px;
+    height: 158px;
   }
 }
